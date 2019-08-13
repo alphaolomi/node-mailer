@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/alphaolomi/node-mailer/issues"
   },
-  "homepage": "https://github.com/alphaolomi/node-mailer#readme"
+  "homepage": "https://github.com/alphaolomi/node-mailer#readme",
+  "dependencies": {
+    "nodemailer": "^6.3.0"
+  }
 }
