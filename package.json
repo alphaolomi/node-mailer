@@ -5,12 +5,12 @@
   "keywords": [],
   "homepage": "https://github.com/alphaolomi/node-mailer#readme",
   "author": "Alpha Olomi <alphaolomi@gmail.com> (http://alphaolomi.me)",
-  
   "scripts": {
     "start": "ts-node src/index.ts"
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/mailgun-js": "^0.22.4",
     "@types/node": "^13.13.4",
     "@types/nodemailer": "^6.4.0",
     "@types/nodemailer-direct-transport": "^1.0.31",
@@ -20,13 +20,14 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
+    "mailgun-js": "^0.22.0",
     "nodemailer": "^6.4.6"
-  },  
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alphaolomi/node-mailer.git"
   },
   "bugs": {
     "url": "https://github.com/alphaolomi/node-mailer/issues"
-  }  
+  }
 }
