@@ -14,6 +14,11 @@
   </a>
 </p>
 
+## Reference
+
+-https://nodemailer.com/smtp/
+
+- https://subscription.packtpub.com/book/application_development/9781786468710/12/ch12lvl1sec71/sending-mail
 
 ## Install
 
@@ -44,5 +49,6 @@ Give a ⭐️ if this project helped you!
 Copyright © 2020 [Alpha Olomi <alphaolomi@gmail.com> (http://alphaolomi.me)](https://github.com/alphaolomi).<br />
 This project is [MIT](https://github.com/alphaolomi/node-mailer/blob/master/LICENSE) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
