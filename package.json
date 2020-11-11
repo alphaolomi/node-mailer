@@ -1,23 +1,26 @@
 {
   "name": "node-mailer",
-  "version": "1.0.0",
-  "description": "A simple node mailer 📧",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alphaolomi/node-mailer.git"
-  },
+  "description": "Learn sending mails using js",
+  "version": "0.1.3",
+  "private": true,
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alphaolomi/node-mailer/issues"
+  "author": "Alpha Olomi <alphaolomi@gmail.com> (http://alphaolomi.me)",
+  "scripts": {
+    "start": "ts-node src/index.ts"
   },
-  "homepage": "https://github.com/alphaolomi/node-mailer#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mailgun-js": "^0.22.11",
+    "@types/node": "^14.14.7",
+    "@types/nodemailer": "^6.4.0",
+    "@types/nodemailer-direct-transport": "^1.0.31",
+    "@types/nodemailer-smtp-transport": "^2.7.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
   "dependencies": {
-    "nodemailer": "^6.3.0"
+    "dotenv": "^8.2.0",
+    "mailgun-js": "^0.22.0",
+    "nodemailer": "^6.4.15"
   }
 }
